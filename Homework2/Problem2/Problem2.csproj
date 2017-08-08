@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F86241ED-1548-4091-BBF2-3A7A928FDDB4}</ProjectGuid>
+    <ProjectGuid>{A93DA697-EBA2-4078-A223-361B088BB77E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Example01</RootNamespace>
-    <AssemblyName>Example01</AssemblyName>
+    <RootNamespace>Problem2</RootNamespace>
+    <AssemblyName>Problem2</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pokemon.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

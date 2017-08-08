@@ -2,24 +2,23 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.IO;
 using System.Threading.Tasks;
 
-namespace Example01
+namespace Problem1
 {
     internal class Program
     {
         private static void Main(string[] args)
         {
             Pokemon 寶可夢 = new Pokemon();
-            Pokemon pokemon = new Pokemon();
+            //Pokemon pokemon = new Pokemon();
 
             Console.Write("請輸入Pokemon Name: ");
             try
             {
                 寶可夢.PokemonName = Console.ReadLine();
             }
-            catch (IOException e)
+            catch
             {
                 Console.WriteLine("Pokemon Name 輸入錯誤!");
             }
@@ -29,7 +28,7 @@ namespace Example01
             {
                 寶可夢.NationalNumber = int.Parse(Console.ReadLine());
             }
-            catch (IOException e)
+            catch
             {
                 Console.WriteLine("National No 輸入錯誤!");
             }
@@ -39,7 +38,7 @@ namespace Example01
             {
                 寶可夢.Type = Console.ReadLine();
             }
-            catch (IOException e)
+            catch
             {
                 Console.WriteLine("Type 輸入錯誤!");
             }
@@ -49,7 +48,7 @@ namespace Example01
             {
                 寶可夢.Species = Console.ReadLine();
             }
-            catch (IOException e)
+            catch
             {
                 Console.WriteLine("Species 輸入錯誤!");
             }
@@ -59,7 +58,7 @@ namespace Example01
             {
                 寶可夢.Height = float.Parse(Console.ReadLine());
             }
-            catch (IOException e)
+            catch
             {
                 Console.WriteLine("Height 輸入錯誤!");
             }
@@ -69,7 +68,7 @@ namespace Example01
             {
                 寶可夢.Weight = float.Parse(Console.ReadLine());
             }
-            catch (IOException e)
+            catch
             {
                 Console.WriteLine("Weight 輸入錯誤!");
             }
@@ -79,7 +78,7 @@ namespace Example01
             {
                 寶可夢.Abilities = Console.ReadLine();
             }
-            catch (IOException e)
+            catch
             {
                 Console.WriteLine("Abilities 輸入錯誤!");
             }
@@ -91,7 +90,7 @@ namespace Example01
                 {
                     寶可夢.LocalNumber[n] = Console.ReadLine();
                 }
-                catch (IOException e)
+                catch
                 {
                     Console.WriteLine("LocalNo 輸入錯誤!");
                 }
