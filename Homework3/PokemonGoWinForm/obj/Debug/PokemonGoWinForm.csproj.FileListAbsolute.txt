@@ -1,0 +1,11 @@
+D:\C#287\Lecture02\CS-287\Homework3\PokemonGoWinForm\bin\Debug\PokemonGoWinForm.exe.config
+D:\C#287\Lecture02\CS-287\Homework3\PokemonGoWinForm\bin\Debug\PokemonGoWinForm.exe
+D:\C#287\Lecture02\CS-287\Homework3\PokemonGoWinForm\bin\Debug\PokemonGoWinForm.pdb
+D:\C#287\Lecture02\CS-287\Homework3\PokemonGoWinForm\bin\Debug\PokemonGo.Core.dll
+D:\C#287\Lecture02\CS-287\Homework3\PokemonGoWinForm\bin\Debug\PokemonGo.Core.pdb
+D:\C#287\Lecture02\CS-287\Homework3\PokemonGoWinForm\obj\Debug\PokemonGoWinForm.csprojResolveAssemblyReference.cache
+D:\C#287\Lecture02\CS-287\Homework3\PokemonGoWinForm\obj\Debug\PokemonGoWinForm.ItemsWindow.resources
+D:\C#287\Lecture02\CS-287\Homework3\PokemonGoWinForm\obj\Debug\PokemonGoWinForm.Properties.Resources.resources
+D:\C#287\Lecture02\CS-287\Homework3\PokemonGoWinForm\obj\Debug\PokemonGoWinForm.csproj.GenerateResource.Cache
+D:\C#287\Lecture02\CS-287\Homework3\PokemonGoWinForm\obj\Debug\PokemonGoWinForm.exe
+D:\C#287\Lecture02\CS-287\Homework3\PokemonGoWinForm\obj\Debug\PokemonGoWinForm.pdb

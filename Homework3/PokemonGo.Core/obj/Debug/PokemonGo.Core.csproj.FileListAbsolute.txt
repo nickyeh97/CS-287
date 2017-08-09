@@ -1,0 +1,5 @@
+D:\C#287\Lecture02\CS-287\Homework3\PokemonGo.Core\bin\Debug\PokemonGo.Core.dll
+D:\C#287\Lecture02\CS-287\Homework3\PokemonGo.Core\bin\Debug\PokemonGo.Core.pdb
+D:\C#287\Lecture02\CS-287\Homework3\PokemonGo.Core\obj\Debug\PokemonGo.Core.csprojResolveAssemblyReference.cache
+D:\C#287\Lecture02\CS-287\Homework3\PokemonGo.Core\obj\Debug\PokemonGo.Core.dll
+D:\C#287\Lecture02\CS-287\Homework3\PokemonGo.Core\obj\Debug\PokemonGo.Core.pdb
