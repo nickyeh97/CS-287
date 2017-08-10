@@ -1,0 +1,5 @@
+D:\C#287\Lecture02\CS-287\Lecture04\CodeOrg\bin\Debug\CodeOrg.dll
+D:\C#287\Lecture02\CS-287\Lecture04\CodeOrg\bin\Debug\CodeOrg.pdb
+D:\C#287\Lecture02\CS-287\Lecture04\CodeOrg\obj\Debug\Code.Org.csprojResolveAssemblyReference.cache
+D:\C#287\Lecture02\CS-287\Lecture04\CodeOrg\obj\Debug\CodeOrg.dll
+D:\C#287\Lecture02\CS-287\Lecture04\CodeOrg\obj\Debug\CodeOrg.pdb
