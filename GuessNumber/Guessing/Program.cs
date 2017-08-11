@@ -84,7 +84,7 @@ namespace Guessing
                 , R3
                 , R4);
 
-            //判斷式
+            //迴圈判斷式
             inputNumber = new int[4];
             inputNumber[0] = N1;
             inputNumber[1] = N2;
@@ -113,7 +113,7 @@ namespace Guessing
                     }
                 }
             }
-            /*
+            /* if - else if 判斷式
             if (N1 == R1)
             {
                 status += "U GET 1A!";
