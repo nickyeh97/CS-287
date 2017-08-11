@@ -1,0 +1,9 @@
+c:\users\administrator\documents\visual studio 2017\Projects\GuessNumber\GuessWindow\bin\Debug\GuessWindow.exe.config
+c:\users\administrator\documents\visual studio 2017\Projects\GuessNumber\GuessWindow\bin\Debug\GuessWindow.exe
+c:\users\administrator\documents\visual studio 2017\Projects\GuessNumber\GuessWindow\bin\Debug\GuessWindow.pdb
+c:\users\administrator\documents\visual studio 2017\Projects\GuessNumber\GuessWindow\obj\Debug\GuessWindow.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2017\Projects\GuessNumber\GuessWindow\obj\Debug\GuessWindow.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2017\Projects\GuessNumber\GuessWindow\obj\Debug\GuessWindow.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2017\Projects\GuessNumber\GuessWindow\obj\Debug\GuessWindow.exe
+c:\users\administrator\documents\visual studio 2017\Projects\GuessNumber\GuessWindow\obj\Debug\GuessWindow.pdb
+c:\users\administrator\documents\visual studio 2017\Projects\GuessNumber\GuessWindow\obj\Debug\GuessWindow.GuessNumberForm.resources

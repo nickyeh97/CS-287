@@ -1,0 +1,6 @@
+c:\users\administrator\documents\visual studio 2017\Projects\GuessNumber\Guessing\bin\Debug\Guessing.exe.config
+c:\users\administrator\documents\visual studio 2017\Projects\GuessNumber\Guessing\bin\Debug\Guessing.exe
+c:\users\administrator\documents\visual studio 2017\Projects\GuessNumber\Guessing\bin\Debug\Guessing.pdb
+c:\users\administrator\documents\visual studio 2017\Projects\GuessNumber\Guessing\obj\Debug\Guessing.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2017\Projects\GuessNumber\Guessing\obj\Debug\Guessing.exe
+c:\users\administrator\documents\visual studio 2017\Projects\GuessNumber\Guessing\obj\Debug\Guessing.pdb
