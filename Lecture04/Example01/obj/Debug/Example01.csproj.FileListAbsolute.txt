@@ -5,3 +5,4 @@ D:\C#287\Lecture02\CS-287\Lecture04\Example01\bin\Debug\CodeOrg.dll
 D:\C#287\Lecture02\CS-287\Lecture04\Example01\bin\Debug\CodeOrg.pdb
 D:\C#287\Lecture02\CS-287\Lecture04\Example01\obj\Debug\Example01.exe
 D:\C#287\Lecture02\CS-287\Lecture04\Example01\obj\Debug\Example01.pdb
+D:\C#287\Lecture02\CS-287\Lecture04\Example01\obj\Debug\Example01.csprojResolveAssemblyReference.cache

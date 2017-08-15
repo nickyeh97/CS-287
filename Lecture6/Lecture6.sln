@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppleStoreLibrary1", "..\Lecture3-Example\AppleStoreLibrary1\AppleStoreLibrary1.csproj", "{752F9154-19F3-4D6E-81C7-DCB3667FC47C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex02", "..\Lecture3-Example\Ex02\Ex02.csproj", "{10AB958A-C665-46F7-9E5A-33B6B8B5F625}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{752F9154-19F3-4D6E-81C7-DCB3667FC47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{752F9154-19F3-4D6E-81C7-DCB3667FC47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{752F9154-19F3-4D6E-81C7-DCB3667FC47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{752F9154-19F3-4D6E-81C7-DCB3667FC47C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10AB958A-C665-46F7-9E5A-33B6B8B5F625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10AB958A-C665-46F7-9E5A-33B6B8B5F625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10AB958A-C665-46F7-9E5A-33B6B8B5F625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10AB958A-C665-46F7-9E5A-33B6B8B5F625}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

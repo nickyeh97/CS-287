@@ -1,0 +1,11 @@
+D:\C#287\Lecture02\CS-287\Exercise07\SalaryWindow\bin\Debug\SalaryWindow.exe.config
+D:\C#287\Lecture02\CS-287\Exercise07\SalaryWindow\bin\Debug\SalaryWindow.exe
+D:\C#287\Lecture02\CS-287\Exercise07\SalaryWindow\bin\Debug\SalaryWindow.pdb
+D:\C#287\Lecture02\CS-287\Exercise07\SalaryWindow\bin\Debug\Employee.dll
+D:\C#287\Lecture02\CS-287\Exercise07\SalaryWindow\bin\Debug\Employee.pdb
+D:\C#287\Lecture02\CS-287\Exercise07\SalaryWindow\obj\Debug\SalaryWindow.csprojResolveAssemblyReference.cache
+D:\C#287\Lecture02\CS-287\Exercise07\SalaryWindow\obj\Debug\SalaryWindow.SalaryWindow.resources
+D:\C#287\Lecture02\CS-287\Exercise07\SalaryWindow\obj\Debug\SalaryWindow.Properties.Resources.resources
+D:\C#287\Lecture02\CS-287\Exercise07\SalaryWindow\obj\Debug\SalaryWindow.csproj.GenerateResource.Cache
+D:\C#287\Lecture02\CS-287\Exercise07\SalaryWindow\obj\Debug\SalaryWindow.exe
+D:\C#287\Lecture02\CS-287\Exercise07\SalaryWindow\obj\Debug\SalaryWindow.pdb

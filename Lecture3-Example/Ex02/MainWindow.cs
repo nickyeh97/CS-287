@@ -13,34 +13,32 @@ namespace Ex02
 {
     public partial class MainWindow : Form
     {
-        public Product[] Products;
+        public List<Product> Products;
         public int Total = 0;
 
         public MainWindow()
         {
             InitializeComponent();
 
-            Products = new Product[]
+            Products = new List<Product>
             {
                 new Product()
                 {
                      Id = 1,
                      Name = "iphone7",
                      Price = 28900,
-                     Categories = new string[] { "iPhone" }
+                     Category ="iPhone"
                 },
 
                 new Product()
                 {
-                     Id = 2,
+                    Id = 2,
                     Name = "iphone 7s",
                     Price = 31900,
-                   Categories = new string[] { "iPhones" }
+                   Category =  "iPhones"
                 }
             };
-
-            ProductLabel1.Text = string.Format("產品{0},價格{1}元", Products[0].Name, Products[0].Price);
-            ProductLabel2.Text = string.Format("產品{0},價格{1}元", Products[1].Name, Products[1].Price);
+            Render();
         }
 
         private void AddButton1_Click(object sender, EventArgs e)
@@ -48,7 +46,7 @@ namespace Ex02
             ShoppingCartRichTextBox.Text =
                 ShoppingCartRichTextBox.Text + Products[0].Name + "\n";
             Total += Products[0].Price;
-            TotalLabel.Text = string.Format("總金額: {0}", Total);
+            Render();
         }
 
         private void AddButton2_Click(object sender, EventArgs e)
@@ -56,7 +54,7 @@ namespace Ex02
             ShoppingCartRichTextBox.Text =
                 ShoppingCartRichTextBox.Text + Products[1].Name + "\n";
             Total += Products[0].Price;
-            TotalLabel.Text = string.Format("總金額: {0}", Total);
+            Render();
         }
 
         private void ClearButton_Click(object sender, EventArgs e)
@@ -64,6 +62,21 @@ namespace Ex02
             Total = 0;
             ShoppingCartRichTextBox.Text = " ";
             TotalLabel.Text = "總金額: 0元";
+        }
+
+        public void Render()
+        {
+            ProductLabel1.Text = string.Format("產品{0},價格{1}元", Products[0].Name, Products[0].Price);
+            ProductLabel2.Text = string.Format("產品{0},價格{1}元", Products[1].Name, Products[1].Price);
+
+            TotalLabel.Text = string.Format("總金額: {0}", Total);
+        }
+
+        private void AddProductMenuItem1_Click(object sender, EventArgs e)
+        {
+            ProductManagementWindow pmWindow = new ProductManagementWindow();
+            pmWindow.ParentWindow = this;
+            pmWindow.Show();
         }
     }
 }

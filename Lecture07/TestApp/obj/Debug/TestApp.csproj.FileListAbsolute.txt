@@ -1,0 +1,8 @@
+D:\C#287\Lecture02\CS-287\Lecture07\TestApp\bin\Debug\TestApp.exe.config
+D:\C#287\Lecture02\CS-287\Lecture07\TestApp\bin\Debug\TestApp.exe
+D:\C#287\Lecture02\CS-287\Lecture07\TestApp\bin\Debug\TestApp.pdb
+D:\C#287\Lecture02\CS-287\Lecture07\TestApp\bin\Debug\EasyMath.NET.dll
+D:\C#287\Lecture02\CS-287\Lecture07\TestApp\bin\Debug\EasyMath.NET.pdb
+D:\C#287\Lecture02\CS-287\Lecture07\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
+D:\C#287\Lecture02\CS-287\Lecture07\TestApp\obj\Debug\TestApp.exe
+D:\C#287\Lecture02\CS-287\Lecture07\TestApp\obj\Debug\TestApp.pdb

@@ -36,6 +36,10 @@
             this.AddButton2 = new System.Windows.Forms.Button();
             this.TotalLabel = new System.Windows.Forms.Label();
             this.ClearButton = new System.Windows.Forms.Button();
+            this.ProductMenuStrip = new System.Windows.Forms.MenuStrip();
+            this.ProductMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.AddProductMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.ProductMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // ShoppingCartRichTextBox
@@ -106,6 +110,31 @@
             this.ClearButton.UseVisualStyleBackColor = true;
             this.ClearButton.Click += new System.EventHandler(this.ClearButton_Click);
             // 
+            // ProductMenuStrip
+            // 
+            this.ProductMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ProductMenuItem1});
+            this.ProductMenuStrip.Location = new System.Drawing.Point(0, 0);
+            this.ProductMenuStrip.Name = "ProductMenuStrip";
+            this.ProductMenuStrip.Size = new System.Drawing.Size(558, 24);
+            this.ProductMenuStrip.TabIndex = 8;
+            this.ProductMenuStrip.Text = "產品管理";
+            // 
+            // ProductMenuItem1
+            // 
+            this.ProductMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.AddProductMenuItem1});
+            this.ProductMenuItem1.Name = "ProductMenuItem1";
+            this.ProductMenuItem1.Size = new System.Drawing.Size(68, 20);
+            this.ProductMenuItem1.Text = "產品管理";
+            // 
+            // AddProductMenuItem1
+            // 
+            this.AddProductMenuItem1.Name = "AddProductMenuItem1";
+            this.AddProductMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.AddProductMenuItem1.Text = "新增產品";
+            this.AddProductMenuItem1.Click += new System.EventHandler(this.AddProductMenuItem1_Click);
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -118,11 +147,15 @@
             this.Controls.Add(this.ProductLabel2);
             this.Controls.Add(this.ProductLabel1);
             this.Controls.Add(this.ShoppingCartRichTextBox);
+            this.Controls.Add(this.ProductMenuStrip);
             this.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.ProductMenuStrip;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "MainWindow";
             this.Text = "Welcom to Apple Store";
+            this.ProductMenuStrip.ResumeLayout(false);
+            this.ProductMenuStrip.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,6 +170,9 @@
         private System.Windows.Forms.Button AddButton2;
         private System.Windows.Forms.Label TotalLabel;
         private System.Windows.Forms.Button ClearButton;
+        private System.Windows.Forms.MenuStrip ProductMenuStrip;
+        private System.Windows.Forms.ToolStripMenuItem ProductMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem AddProductMenuItem1;
     }
 }
 

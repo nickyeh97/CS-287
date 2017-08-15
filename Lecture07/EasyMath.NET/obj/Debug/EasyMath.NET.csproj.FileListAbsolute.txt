@@ -1,0 +1,5 @@
+D:\C#287\Lecture02\CS-287\Lecture07\EasyMath.NET\bin\Debug\EasyMath.NET.dll
+D:\C#287\Lecture02\CS-287\Lecture07\EasyMath.NET\bin\Debug\EasyMath.NET.pdb
+D:\C#287\Lecture02\CS-287\Lecture07\EasyMath.NET\obj\Debug\EasyMath.NET.csprojResolveAssemblyReference.cache
+D:\C#287\Lecture02\CS-287\Lecture07\EasyMath.NET\obj\Debug\EasyMath.NET.dll
+D:\C#287\Lecture02\CS-287\Lecture07\EasyMath.NET\obj\Debug\EasyMath.NET.pdb

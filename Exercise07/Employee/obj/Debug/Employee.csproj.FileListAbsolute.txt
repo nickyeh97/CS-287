@@ -1,0 +1,5 @@
+D:\C#287\Lecture02\CS-287\Exercise07\Employee\bin\Debug\Employee.dll
+D:\C#287\Lecture02\CS-287\Exercise07\Employee\bin\Debug\Employee.pdb
+D:\C#287\Lecture02\CS-287\Exercise07\Employee\obj\Debug\Employee.csprojResolveAssemblyReference.cache
+D:\C#287\Lecture02\CS-287\Exercise07\Employee\obj\Debug\Employee.dll
+D:\C#287\Lecture02\CS-287\Exercise07\Employee\obj\Debug\Employee.pdb
