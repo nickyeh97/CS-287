@@ -21,7 +21,7 @@ TagManager:
   - Enemies
   - Pickups
   - Ground
-  - 
+  - Home
   - 
   - 
   - 
@@ -58,4 +58,7 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 149272721
+    locked: 0
+  - name: Home
+    uniqueID: 1943500333
     locked: 0

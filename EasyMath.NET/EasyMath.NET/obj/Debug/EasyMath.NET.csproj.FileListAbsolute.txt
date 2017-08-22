@@ -1,0 +1,5 @@
+D:\NTUCS\C#\CS-287\EasyMath.NET\EasyMath.NET\bin\Debug\EasyMath.NET.dll
+D:\NTUCS\C#\CS-287\EasyMath.NET\EasyMath.NET\bin\Debug\EasyMath.NET.pdb
+D:\NTUCS\C#\CS-287\EasyMath.NET\EasyMath.NET\obj\Debug\EasyMath.NET.csprojResolveAssemblyReference.cache
+D:\NTUCS\C#\CS-287\EasyMath.NET\EasyMath.NET\obj\Debug\EasyMath.NET.dll
+D:\NTUCS\C#\CS-287\EasyMath.NET\EasyMath.NET\obj\Debug\EasyMath.NET.pdb

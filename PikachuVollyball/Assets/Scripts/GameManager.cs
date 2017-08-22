@@ -13,114 +13,92 @@ public class GameManager : MonoBehaviour
 
     public GameObject Beach;
     public GameObject Column;
-    public GameObject Clouds;
+    public GameObject Cloud1;
+    public GameObject Cloud2;
 
-    public GameObject PikachuLeft;
-    public GameObject PikachuRight;
-    public GameObject Pokemonball;
-    /*
     public Text P1ScoreText;
     public Text P2ScoreText;
+    public int P1Score = 0;
+    public int P2Score = 0;
 
     public bool isGameActive = false;
     public bool isPrepare = false;
-    */
+    public bool isEnd = false;
 
     #endregion Inspecter Variables
 
     [HideInInspector]
-    private static float MOVING_SPEED = 10; // 移動速度
-
     private static float Clouds_MOVING_SPEED = .05f;
-
-    private static Vector2 JumpVector = new Vector2(0, 18f);
-    private static Vector2 LeftVector = new Vector2(3f, 0);
-    private static Vector2 RightVector = new Vector2(3f, 0);
-    public bool LeftPikachuJumping = false;
-    public bool RightPikachuJumping = false;
 
     private void Start()
     {
-        //PrePareView();
-        StartCoroutine("BackgroundMoving");
+        HomeGroup.SetActive(false);
+        PrePareView();
         Update();
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.F2))
+        {
+            if (!isGameActive && isEnd)
+                ResetGame();
+            else
+                StartGame();
+        }
+
+        if (P1Score > 5 || P2Score > 5)
+        {
+            EndGame();
+        }
     }
 
     private void PrePareView()
     {
         HomeGroup.SetActive(true);
-        StartCoroutine("BackgroundMoving");
-        //isPrepare = true;
+        isPrepare = true;
     }
 
     public void StartGame()
     {
-        // isGameActive = true;
-        // isPrepare = false;
+        isGameActive = true;
+        isPrepare = false;
         HomeGroup.SetActive(false);
+        StartCoroutine("BackgroundMoving");
     }
 
     public void EndGame()
     {
-        // isGameActive = false;
+        isGameActive = false;
+        isEnd = true;
         StopCoroutine("BackgroundMoving");
     }
 
     private void ResetGame()
     {
-        //GamePoint = 0;
-        //PointText.text = GamePoint.ToString();
-        HomeGroup.SetActive(false);
-        //ResultGroup.SetActive(false);
+        P1Score = 0;
+        P2Score = 0;
+        P1ScoreText.text = P1ScoreText.ToString();
+        P2ScoreText.text = P2ScoreText.ToString();
+        StartGame();
     }
 
     private IEnumerator BackgroundMoving()
     {
         while (true)
         {
-            if (Clouds.GetComponent<Transform>().localPosition.x < -15.63f)
-                Clouds.GetComponent<Transform>().localPosition = new Vector3(16.37f, -0.6f, 0f);
+            if (Cloud1.GetComponent<Transform>().localPosition.x < -15.63f)
+                Cloud1.GetComponent<Transform>().localPosition = new Vector3(16.37f, -0.6f, 0f);
 
-            Clouds.GetComponent<Transform>().localPosition += Vector3.left * Clouds_MOVING_SPEED * 0.5f;
+            Cloud1.GetComponent<Transform>().localPosition += Vector3.left * Clouds_MOVING_SPEED * 0.5f;
+
+            if (Cloud2.GetComponent<Transform>().localPosition.x < -15.63f)
+                Cloud2.GetComponent<Transform>().localPosition = new Vector3(16.37f, -0.6f, 0f);
+
+            Cloud2.GetComponent<Transform>().localPosition += Vector3.left * Clouds_MOVING_SPEED * 0.5f;
 
             yield return new WaitForEndOfFrame();
         }
-    }
-
-    public void P2TouchTheBall()
-    {
-        // isGameActive = false;
-        StopCoroutine("BackgroundMoving");
-    }
-
-    // Update is called once per frame
-    private void Update()
-    {
-        //Pikachu pikachu = new Pikachu();
-
-        if (Input.GetKey(KeyCode.W) && !LeftPikachuJumping)
-        {
-            LeftPikachuJumping = true;
-            PikachuLeft.GetComponent<Rigidbody2D>().velocity = JumpVector * 0.668f;
-        }
-        if (GM.GameManager.PikachuLeft.GetComponent<Transform>().localPosition.y < -2.8 && LeftPikachuJumping)
-            LeftPikachuJumping = false;
-        if (Input.GetKey(KeyCode.A) && GM.GameManager.PikachuLeft.GetComponent<Transform>().localPosition.x > -5.8f)
-            PikachuLeft.GetComponent<Transform>().localPosition += Vector3.left * 0.1f;
-        if (Input.GetKey(KeyCode.D) && GM.GameManager.PikachuLeft.GetComponent<Transform>().localPosition.x < -1f)
-            PikachuLeft.GetComponent<Transform>().localPosition += Vector3.right * 0.1f;
-
-        if (Input.GetKey(KeyCode.UpArrow) && !RightPikachuJumping)
-        {
-            RightPikachuJumping = true;
-            PikachuRight.GetComponent<Rigidbody2D>().velocity = JumpVector * 0.668f;
-        }
-        if (GM.GameManager.PikachuRight.GetComponent<Transform>().localPosition.y < -2.8 && RightPikachuJumping)
-            RightPikachuJumping = false;
-        if (Input.GetKey(KeyCode.LeftArrow) && GM.GameManager.PikachuRight.GetComponent<Transform>().localPosition.x > 1.2f)
-            PikachuRight.GetComponent<Transform>().localPosition += Vector3.left * 0.1f;
-        if (Input.GetKey(KeyCode.RightArrow) && GM.GameManager.PikachuRight.GetComponent<Transform>().localPosition.x < 5.8f)
-            PikachuRight.GetComponent<Transform>().localPosition += Vector3.right * 0.1f;
     }
 }
 

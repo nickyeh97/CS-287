@@ -1,0 +1,8 @@
+D:\NTUCS\C#\CS-287\PokemonLibrary\PokemonLibrary\bin\Debug\PokemonLibrary.dll.config
+D:\NTUCS\C#\CS-287\PokemonLibrary\PokemonLibrary\bin\Debug\PokemonLibrary.dll
+D:\NTUCS\C#\CS-287\PokemonLibrary\PokemonLibrary\bin\Debug\PokemonLibrary.pdb
+D:\NTUCS\C#\CS-287\PokemonLibrary\PokemonLibrary\bin\Debug\EasyMath.NET.dll
+D:\NTUCS\C#\CS-287\PokemonLibrary\PokemonLibrary\bin\Debug\EasyMath.NET.pdb
+D:\NTUCS\C#\CS-287\PokemonLibrary\PokemonLibrary\obj\Debug\PokemonLibrary.csprojResolveAssemblyReference.cache
+D:\NTUCS\C#\CS-287\PokemonLibrary\PokemonLibrary\obj\Debug\PokemonLibrary.dll
+D:\NTUCS\C#\CS-287\PokemonLibrary\PokemonLibrary\obj\Debug\PokemonLibrary.pdb
